@@ -1,6 +1,7 @@
 
 
  User: <%= current_user.username %>
+ <%binding.pry%>
 <form action="/tweets/<%=@tweet.id%>" method="Post">
 
      <input type="hidden" name="_method" value="patch">
